@@ -1,15 +1,15 @@
-#  Perceptron Simples - Classificação Binária 
+# 📚 Perceptron Simples - Classificação Binária 
 
 Este projeto implementa um Perceptron Simples para classificação binária utilizando aprendizado supervisionado. O modelo ajusta seus pesos com base no erro das previsões e aplica uma regra de atualização linear. Este algoritmo pode ser utilizado em diversos cenários de classificação binária.
 
-##  Características do Projeto
+## 🚀 Características do Projeto
 
 * **3 Datasets de Teste e Treinamento:** Inclui datasets 1, 2 e 3, preparados para treinar e testar o Perceptron.
 * **Implementação do Perceptron:** Funções de treinamento e teste baseadas no algoritmo do Perceptron.
 * **Visualização Gráfica:** Exibição do erro de treinamento ao longo das épocas e da fronteira de decisão.
 * **Avaliação:** Cálculo da acurácia nos dados de treino e teste. ✅
 
-## ️ Estrutura do Código
+## 🗂 Estrutura do Código
 
 1.  **Função `train_perceptron`:** ⚙️
 
@@ -50,7 +50,7 @@ Este projeto implementa um Perceptron Simples para classificação binária util
 
     A execução envolve o carregamento dos dados, treinamento do modelo e avaliação. O código faz uso de Matplotlib para exibir gráficos da evolução do erro e das fronteiras de decisão.
 
-##  Datasets
+## 📊 Datasets
 
 Este projeto utiliza 3 datasets para treinar e testar o Perceptron:
 
@@ -60,7 +60,7 @@ Este projeto utiliza 3 datasets para treinar e testar o Perceptron:
 
 Cada dataset é carregado de arquivos CSV e a avaliação é feita com base nas métricas de acurácia.
 
-##  Instalação e Uso
+## 📥 Instalação e Uso
 
 1.  **Requisitos:**
 
