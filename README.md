@@ -77,7 +77,7 @@ Cada dataset é carregado de arquivos CSV e a avaliação é feita com base nas 
     * Clone o repositório (ou baixe os arquivos necessários):
 
         ```bash
-        git clone [https://github.com/seu-usuario/perceptron.git](https://github.com/seu-usuario/perceptron.git) 
+        git clone https://github.com/elciofurtili/perceptron.git 
         cd perceptron 
         ```
 
