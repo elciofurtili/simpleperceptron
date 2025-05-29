@@ -7,7 +7,7 @@ Este projeto implementa um Perceptron Simples para classificação binária util
 * **3 Datasets de Teste e Treinamento:** Inclui datasets 1, 2 e 3, preparados para treinar e testar o Perceptron.
 * **Implementação do Perceptron:** Funções de treinamento e teste baseadas no algoritmo do Perceptron.
 * **Visualização Gráfica:** Exibição do erro de treinamento ao longo das épocas e da fronteira de decisão.
-* **Avaliação:** Cálculo da acurácia nos dados de treino e teste. ✅
+* **Avaliação:** Cálculo da acurácia nos dados de treino e teste.
 
 ## Estrutura do Código
 
@@ -26,6 +26,7 @@ Este projeto implementa um Perceptron Simples para classificação binária util
     * `weights`: Pesos ajustados após o treinamento.
     * `epoch`: Número de épocas executadas.
     * `errors`: Lista de erros durante o treinamento.
+
 
     ```python
     def train_perceptron(X, y, learning_rate=0.1, epochs=100, seed=None):
