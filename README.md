@@ -27,27 +27,28 @@ Este projeto implementa um Perceptron Simples para classificação binária util
     * `epoch`: Número de épocas executadas.
     * `errors`: Lista de erros durante o treinamento.
 
+    Parâmetros da função no código:
 
     ```python
     def train_perceptron(X, y, learning_rate=0.1, epochs=100, seed=None):
         # Implementação 
     ```
 
-2.  **Função `test_perceptron`:** Avalia o desempenho do modelo no conjunto de dados de teste, retornando a acurácia do modelo.
+3.  **Função `test_perceptron`:** Avalia o desempenho do modelo no conjunto de dados de teste, retornando a acurácia do modelo.
 
     ```python
     def test_perceptron(X, y, weights):
         # Implementação 
     ```
 
-3.  **Função `plot_decision_boundary`:** Exibe a fronteira de decisão do Perceptron, mostrando como o modelo classifica os dados em diferentes regiões.
+4.  **Função `plot_decision_boundary`:** Exibe a fronteira de decisão do Perceptron, mostrando como o modelo classifica os dados em diferentes regiões.
 
     ```python
     def plot_decision_boundary(X_train, y_train, weights):
         # Implementação 
     ```
 
-4.  **Execução do Código:**
+5.  **Execução do Código:**
 
     A execução envolve o carregamento dos dados, treinamento do modelo e avaliação. O código faz uso de Matplotlib para exibir gráficos da evolução do erro e das fronteiras de decisão.
 
